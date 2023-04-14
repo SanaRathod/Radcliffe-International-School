@@ -1,0 +1,20 @@
+<html>
+<head><title>Practical</title></head>
+ <body>
+ <script>
+ function user() {
+ var firstname = document.getElementById("firstname").value;
+ var secondname = document.getElementById("secondname").value;
+ var person = { firstname, secondname }
+ document.getElementById("Name").textContent = person.firstname + 
+" " + person.secondname ;
+ }
+ </script>
+
+
+ First Name : <input id="firstname" /> <br>
+ Second Name : <input id="secondname" /> <br>
+ <button onclick="user()">Submit</button>
+ <p id="Name">
+ </body>
+</html>
